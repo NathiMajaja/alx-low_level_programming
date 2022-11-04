@@ -7,7 +7,7 @@
  * @argv: arguments
  * Return: 0 on success
  */
-int main(int argc, char argv[])
+int main(int argc, char *argv[])
 {/*Declaring variables*/
 	int count = 0;
 
@@ -15,7 +15,7 @@ int main(int argc, char argv[])
 	{/*WHILE - Print each arguments*/
 		while (count < argc)
 		{
-			printf("%d\n", argv[count]);
+			printf("%s\n", argv[count]);
 			count++;
 		}
 	}
